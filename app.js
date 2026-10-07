@@ -210,8 +210,8 @@ async function renderLibrary() {
   }
   stage.innerHTML = `
     <div class="kicker">
-      <h1>THE HOUSE</h1>
-      <p>Every album, off Suno. Drop the MP3s you already downloaded. This page keeps them on this machine.</p>
+      <h1>MORE BOUNCE LABS</h1>
+      <p>19 shelves. 344 tracks. click a cover.</p>
     </div>
     ${cards.length ? `<div class="grid">${cards.join("")}</div>` : `<div class="empty"><strong>No shelves yet.</strong>Hit New album, or drop a folder of MP3s onto a shelf.</div>`}
   `;
@@ -289,22 +289,27 @@ function renderPlayer() {
   const embed = state.useEmbed && cur && cur.sunoId
     ? `<iframe class="embed-fallback" title="Suno player" src="${esc(sunoEmbed(cur.sunoId))}" allow="autoplay; encrypted-media; fullscreen"></iframe>`
     : "";
+  playerEl.className = audio.paused || !cur ? "player idle" : "player";
   playerEl.innerHTML = `
     <div class="now">
       ${cur && cur.cover ? `<img src="${esc(cur.cover)}" alt="" />` : `<div class="ph"></div>`}
       <div class="who">
-        <strong>${esc(cur ? cur.title : "Nothing playing")}</strong>
-        <span>${esc(cur ? cur.album : "MicTek House")}</span>
+        <strong>${esc(cur ? cur.title : "MORE BOUNCE LABS")}</strong>
+        <span>${esc(cur ? cur.album : "playlist editor")}</span>
       </div>
     </div>
     <div class="transport">
+      <div class="lcd">
+        <span>${fmt(audio.currentTime)} / ${fmt(audio.duration)}</span>
+        <span class="bars">${[8, 14, 6, 18, 10, 16, 7, 12].map((h) => `<i style="height:${h}px"></i>`).join("")}</span>
+      </div>
       ${embed}
       <div class="controls">
-        <button type="button" id="shuffle" title="Shuffle">${state.shuffle ? "⋈" : "∼"}</button>
-        <button type="button" id="prev" title="Previous">⏮</button>
-        <button class="play" type="button" id="toggle" title="Play or pause">${audio.paused ? "▶" : "❚❚"}</button>
-        <button type="button" id="next" title="Next">⏭</button>
-        <button type="button" id="repeat" title="Repeat">${state.repeat === "one" ? "1" : state.repeat === "all" ? "↻" : "→"}</button>
+        <button type="button" id="shuffle" title="Shuffle">${state.shuffle ? "SH" : "sh"}</button>
+        <button type="button" id="prev" title="Previous">|<</button>
+        <button class="play" type="button" id="toggle" title="Play or pause">${audio.paused ? ">" : "||"}</button>
+        <button type="button" id="next" title="Next">>|</button>
+        <button type="button" id="repeat" title="Repeat">${state.repeat === "one" ? "R1" : state.repeat === "all" ? "RA" : "rp"}</button>
       </div>
       <div class="scrub">
         <span id="cur">${fmt(audio.currentTime)}</span>
@@ -313,7 +318,7 @@ function renderPlayer() {
       </div>
     </div>
     <div class="vol">
-      <span>Vol</span>
+      <span>VOL</span>
       <input id="vol" type="range" min="0" max="1" step="0.01" value="${audio.volume}" />
     </div>`;
   document.getElementById("toggle").onclick = toggle;
@@ -325,7 +330,7 @@ function renderPlayer() {
     renderPlayer();
   };
   document.getElementById("seek").oninput = (e) => { audio.currentTime = Number(e.target.value); };
-  document.getElementById("vol").oninput = (e) => { audio.volume = Number(e.target.value); };
+  document.getElementById("vol").oninput = (e) => { audio.volume = Number(e.target.value); }
 }
 
 async function ensureLocalCopy(album) {
