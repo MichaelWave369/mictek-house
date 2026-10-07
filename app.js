@@ -101,9 +101,15 @@ function fmt(sec) {
 }
 
 function esc(s) {
-  return String(s ?? "").replace(/[&<>"']/g, (c) => ({
-    "&": "&", "<": "<", ">": ">", '"': """, "'": "&#39;"
-  }[c]));
+  return String(s ?? "").replace(/[&<>"']/g, (c) => {
+    switch (c) {
+      case "&": return "&" + "amp;";
+      case "<": return "&" + "lt;";
+      case ">": return "&" + "gt;";
+      case '"': return "&" + "quot;";
+      default: return "&" + "#39;";
+    }
+  });
 }
 
 function allAlbums() {
