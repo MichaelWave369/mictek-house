@@ -16,7 +16,7 @@
       "type": "LP",
       "year": "2026",
       "description": "Night drive. Sodium lights, open window, the long coast.",
-      "cover": "",
+      "cover": "covers/west-coast.jpg",
       "tracks": []
     },
     {
@@ -26,7 +26,7 @@
       "type": "LP",
       "year": "2026",
       "description": "Booth light, chrome, and a groove that does not sit down.",
-      "cover": "",
+      "cover": "covers/neon-bae.jpg",
       "tracks": []
     },
     {
@@ -36,7 +36,7 @@
       "type": "LP",
       "year": "2026",
       "description": "Warehouse. One beam. Hands up. Peace, love, unity, respect.",
-      "cover": "",
+      "cover": "covers/bounce.jpg",
       "tracks": []
     },
     {
@@ -46,7 +46,7 @@
       "type": "EP",
       "year": "2026",
       "description": "Wet concrete, one green line, the city still awake.",
-      "cover": "",
+      "cover": "covers/konkrete.jpg",
       "tracks": []
     }
   ]
