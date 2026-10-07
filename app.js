@@ -613,8 +613,8 @@ function openSuno() {
   modal.innerHTML = `
     <form class="sheet" id="suno-form">
       <h3>FROM SUNO</h3>
-      <p class="suno-help">On the Suno album page, run this in the address bar, then paste the copied links below. It grabs every song on the album. Public tracks stream here. Private ones will not play.</p>
-      <p class="suno-help"><code id="grabber">javascript:(()=>{const ids=[...new Set([...document.querySelectorAll('a')].map(a=>a.href).filter(h=>/\\/song\\//.test(h)))];navigator.clipboard.writeText(ids.join('\\n'));alert(ids.length+' song links copied')})()</code></p>
+      <p class="suno-help">Open the album on Suno. Press F12, open Console, paste the line below, and hit Enter. Chrome copies the song links. Paste them in the box. Do not put this in the address bar. Suno blocks that, and that is the error in your screenshot.</p>
+      <p class="suno-help"><code id="grabber">copy([...new Set([...document.querySelectorAll("a[href*='/song/']")].map(a => a.href.split("?")[0]))].join("\\n"))</code></p>
       <div class="fields">
         <label>Album title<input name="title" required placeholder="West Coast" /></label>
         <label>Type
