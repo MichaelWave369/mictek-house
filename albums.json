@@ -10,6 +10,378 @@
   },
   "albums": [
     {
+      "id": "bap-science-fundamentals",
+      "title": "Bap Science Fundamentals",
+      "artist": "Mikey More Bounce",
+      "type": "LP",
+      "year": "2026",
+      "description": "Bappity Bapps - A collection for that sudden, onset \"No-Bap Attack.\"  You junkie...here's your fix... ahhhh... now isn't that better??!?!?!",
+      "cover": "https://cdn2.suno.ai/image_0dac7041-5706-44be-a3db-5eefd55a5df1.jpeg",
+      "suno": "https://suno.com/album/0a9a8679-07ee-4b5e-8c8d-82d9dfd54925",
+      "tracks": [
+        {
+          "title": "Picky With It",
+          "sunoId": "f3958d3d-24d1-4d45-bfd8-5181269dda4a",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/f3958d3d-24d1-4d45-bfd8-5181269dda4a.m4a",
+          "duration": 156.4
+        },
+        {
+          "title": "Broadway Rydin",
+          "sunoId": "5e47bb7d-b10f-4b74-93dd-4f6ff8b13539",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/5e47bb7d-b10f-4b74-93dd-4f6ff8b13539.m4a",
+          "duration": 160.36
+        },
+        {
+          "title": "Good Times",
+          "sunoId": "f8cc7731-5548-45ad-8314-791eaa96fc2a",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/f8cc7731-5548-45ad-8314-791eaa96fc2a.m4a",
+          "duration": 157.92
+        },
+        {
+          "title": "Good Vibes, Good Code",
+          "sunoId": "f334361e-6ab1-4b06-be6d-ea47be0286e4",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/f334361e-6ab1-4b06-be6d-ea47be0286e4.m4a",
+          "duration": 149.56
+        },
+        {
+          "title": "Late on the One",
+          "sunoId": "a4dd9d52-98a8-4c3b-a2b6-b3513769d64d",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/a4dd9d52-98a8-4c3b-a2b6-b3513769d64d.m4a",
+          "duration": 266.76
+        },
+        {
+          "title": "Johnny Go Lucky",
+          "sunoId": "87389aa2-ec5c-4c7b-93f1-035366fa1742",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/87389aa2-ec5c-4c7b-93f1-035366fa1742.m4a",
+          "duration": 151.44
+        },
+        {
+          "title": "Dat Good Feelin'",
+          "sunoId": "89801896-39e2-46d6-aaf5-0699c60f7ca3",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/89801896-39e2-46d6-aaf5-0699c60f7ca3.m4a",
+          "duration": 188.0
+        },
+        {
+          "title": "Top Down",
+          "sunoId": "64135e80-0592-43aa-be3d-59a5a1327015",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/64135e80-0592-43aa-be3d-59a5a1327015.m4a",
+          "duration": 167.72
+        },
+        {
+          "title": "Puffy Clouds",
+          "sunoId": "9e0d89b9-005c-4521-b4d2-2da55dd79a21",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/9e0d89b9-005c-4521-b4d2-2da55dd79a21.m4a",
+          "duration": 178.4
+        },
+        {
+          "title": "Resonated Stations",
+          "sunoId": "b176515d-8ba2-429f-b708-566b14684fa9",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/b176515d-8ba2-429f-b708-566b14684fa9.m4a",
+          "duration": 179.84
+        },
+        {
+          "title": "Geiger Fire",
+          "sunoId": "719ce0b4-a242-4d24-b8a8-4db02c798ccd",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/719ce0b4-a242-4d24-b8a8-4db02c798ccd.m4a",
+          "duration": 189.44
+        },
+        {
+          "title": "Hope Floats",
+          "sunoId": "4b2e775f-ea6e-4d20-92b3-076b6ca232ff",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/4b2e775f-ea6e-4d20-92b3-076b6ca232ff.m4a",
+          "duration": 183.2
+        },
+        {
+          "title": "Golden State",
+          "sunoId": "fed5f741-29e0-4bcf-a62c-413be02293a1",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/fed5f741-29e0-4bcf-a62c-413be02293a1.m4a",
+          "duration": 207.6
+        },
+        {
+          "title": "For the Future Ones",
+          "sunoId": "0ba11953-be83-45bb-8c65-116cf5a151e1",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/0ba11953-be83-45bb-8c65-116cf5a151e1.m4a",
+          "duration": 172.4
+        },
+        {
+          "title": "Take It Slow",
+          "sunoId": "10a165ba-1f48-4a0e-bdd1-524159f54c29",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/10a165ba-1f48-4a0e-bdd1-524159f54c29.m4a",
+          "duration": 213.52
+        },
+        {
+          "title": "Carbon and Silicon Shore",
+          "sunoId": "8ff206d3-622e-4970-ab9e-51347eab17e8",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/8ff206d3-622e-4970-ab9e-51347eab17e8.m4a",
+          "duration": 236.28
+        },
+        {
+          "title": "One Love, One Vibration",
+          "sunoId": "55bfde80-ef2f-4d88-8ab8-06c08138a18b",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/55bfde80-ef2f-4d88-8ab8-06c08138a18b.m4a",
+          "duration": 182.0
+        },
+        {
+          "title": "Not Being Cool About It",
+          "sunoId": "388da228-a103-4633-af30-9fe2eef616c2",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/388da228-a103-4633-af30-9fe2eef616c2.m4a",
+          "duration": 195.2
+        },
+        {
+          "title": "Stay a Little Longer",
+          "sunoId": "88987422-d334-4bc3-9d31-de465b5b088f",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/88987422-d334-4bc3-9d31-de465b5b088f.m4a",
+          "duration": 247.2
+        },
+        {
+          "title": "Neon Suitcase",
+          "sunoId": "0f445acc-bd7c-4314-82f0-b9b3e073dc45",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/0f445acc-bd7c-4314-82f0-b9b3e073dc45.m4a",
+          "duration": 112.4
+        },
+        {
+          "title": "Room for Me",
+          "sunoId": "270b5324-61e6-4c9e-a3d2-34c211944c8a",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/270b5324-61e6-4c9e-a3d2-34c211944c8a.m4a",
+          "duration": 189.84
+        },
+        {
+          "title": "Think Twice",
+          "sunoId": "250a4c1c-3cfc-4f4e-95ff-25aef2041a8c",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/250a4c1c-3cfc-4f4e-95ff-25aef2041a8c.m4a",
+          "duration": 179.8
+        },
+        {
+          "title": "Take a Little Bit",
+          "sunoId": "2a08df07-390f-4d9d-b0d3-51ac7a51647b",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/2a08df07-390f-4d9d-b0d3-51ac7a51647b.m4a",
+          "duration": 184.8
+        },
+        {
+          "title": "Good Green, Cool Breeze",
+          "sunoId": "cac7ea4e-390e-49a0-93c7-1c365d32e728",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/cac7ea4e-390e-49a0-93c7-1c365d32e728.m4a",
+          "duration": 164.36
+        },
+        {
+          "title": "Dream Come True",
+          "sunoId": "0cdad628-eef0-48c4-b385-985e17bf098a",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/0cdad628-eef0-48c4-b385-985e17bf098a.m4a",
+          "duration": 187.28
+        },
+        {
+          "title": "The Green Mother",
+          "sunoId": "2db49cc7-2480-4c2d-ab4a-bbe8c1fb1a7a",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/2db49cc7-2480-4c2d-ab4a-bbe8c1fb1a7a.m4a",
+          "duration": 146.88
+        },
+        {
+          "title": "This or That",
+          "sunoId": "43e80b33-e958-4965-838d-9c6c6da25d0f",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/43e80b33-e958-4965-838d-9c6c6da25d0f.m4a",
+          "duration": 149.44
+        },
+        {
+          "title": "Seed State Slow Flipp",
+          "sunoId": "3e10113f-3749-4f60-9e92-054dacc6b502",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/3e10113f-3749-4f60-9e92-054dacc6b502.m4a",
+          "duration": 264.32
+        },
+        {
+          "title": "Lil' Green Daydream",
+          "sunoId": "880d7dd9-956b-4aff-979e-cc79860e3560",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/880d7dd9-956b-4aff-979e-cc79860e3560.m4a",
+          "duration": 172.0
+        },
+        {
+          "title": "Puffin' Freedom After Dark",
+          "sunoId": "91d8037f-1384-4eae-903f-a370d91cc394",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/91d8037f-1384-4eae-903f-a370d91cc394.m4a",
+          "duration": 194.8
+        },
+        {
+          "title": "Taking Care",
+          "sunoId": "564e93d7-3d27-4742-826f-5c239f1103e6",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/564e93d7-3d27-4742-826f-5c239f1103e6.m4a",
+          "duration": 229.56
+        },
+        {
+          "title": "Grace to Grace",
+          "sunoId": "89796e6a-5308-48d4-a32b-04f31c91682b",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/89796e6a-5308-48d4-a32b-04f31c91682b.m4a",
+          "duration": 339.6
+        },
+        {
+          "title": "Varnish Sunrise",
+          "sunoId": "0aaf2414-9485-4cae-869a-f5a4af5cfb64",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/0aaf2414-9485-4cae-869a-f5a4af5cfb64.m4a",
+          "duration": 103.72
+        },
+        {
+          "title": "Easy Ride",
+          "sunoId": "2654b3d3-1a0c-47c8-939c-62f427fce4cd",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/2654b3d3-1a0c-47c8-939c-62f427fce4cd.m4a",
+          "duration": 187.96
+        },
+        {
+          "title": "High Like I Knew I Could",
+          "sunoId": "79706c4a-ca9b-41a1-9b90-9078bc01b2e2",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/79706c4a-ca9b-41a1-9b90-9078bc01b2e2.m4a",
+          "duration": 153.96
+        },
+        {
+          "title": "Doobie Smoke",
+          "sunoId": "f106af2c-6d03-4b2a-95a5-e6c5e4418d7f",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/f106af2c-6d03-4b2a-95a5-e6c5e4418d7f.m4a",
+          "duration": 114.88
+        },
+        {
+          "title": "Show N Tell",
+          "sunoId": "311f9898-abbb-42d2-b44e-1feedc61797e",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/311f9898-abbb-42d2-b44e-1feedc61797e.m4a",
+          "duration": 175.0
+        },
+        {
+          "title": "Cali Glow",
+          "sunoId": "5f0b3723-8923-4b3d-a983-b507d8c248e1",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/5f0b3723-8923-4b3d-a983-b507d8c248e1.m4a",
+          "duration": 119.4
+        },
+        {
+          "title": "Suspended Phrase",
+          "sunoId": "2fd71e2f-e943-4c6e-b0b5-857c1e4dc736",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/2fd71e2f-e943-4c6e-b0b5-857c1e4dc736.m4a",
+          "duration": 66.28
+        },
+        {
+          "title": "Steady Rollin",
+          "sunoId": "fd4dcd10-8104-41be-8222-ffe174982b1f",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/fd4dcd10-8104-41be-8222-ffe174982b1f.m4a",
+          "duration": 193.6
+        },
+        {
+          "title": "Up on 2 Wheels",
+          "sunoId": "c77d08e0-1034-46ad-aa70-d3aed444e179",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/c77d08e0-1034-46ad-aa70-d3aed444e179.m4a",
+          "duration": 214.36
+        },
+        {
+          "title": "Sun Shine Saturday",
+          "sunoId": "d23a3543-39fe-444b-843e-f2d7eec8bc60",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/d23a3543-39fe-444b-843e-f2d7eec8bc60.m4a",
+          "duration": 201.6
+        },
+        {
+          "title": "Bap",
+          "sunoId": "68a1c279-892e-44a2-b3e4-a140f86d29bb",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/68a1c279-892e-44a2-b3e4-a140f86d29bb.m4a",
+          "duration": 184.8
+        },
+        {
+          "title": "E.T.",
+          "sunoId": "d5362cd6-6836-4c44-8b1b-c779040333f8",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/d5362cd6-6836-4c44-8b1b-c779040333f8.m4a",
+          "duration": 126.36
+        },
+        {
+          "title": "Slow Take",
+          "sunoId": "25fd3648-bd61-47c4-a02f-d6c29616be4b",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/25fd3648-bd61-47c4-a02f-d6c29616be4b.m4a",
+          "duration": 158.0
+        },
+        {
+          "title": "Sunday Residue",
+          "sunoId": "d1e6abe9-7c57-414d-ad6d-0ac69f415760",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/d1e6abe9-7c57-414d-ad6d-0ac69f415760.m4a",
+          "duration": 151.2
+        },
+        {
+          "title": "Let It Roll",
+          "sunoId": "f2051c87-8cda-47c6-9bb7-b77e204e2d83",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/f2051c87-8cda-47c6-9bb7-b77e204e2d83.m4a",
+          "duration": 172.8
+        },
+        {
+          "title": "Somethin'  Wrong",
+          "sunoId": "3fef8808-e4c0-429c-9476-82a93c81cd52",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/3fef8808-e4c0-429c-9476-82a93c81cd52.m4a",
+          "duration": 278.24
+        },
+        {
+          "title": "Kaleidoscope",
+          "sunoId": "1292b0bb-63c6-4045-9356-426702482f2d",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/1292b0bb-63c6-4045-9356-426702482f2d.m4a",
+          "duration": 187.24
+        },
+        {
+          "title": "Can't Have That",
+          "sunoId": "0ea1bf85-def7-43c6-9c51-5b0cf86a23a4",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/0ea1bf85-def7-43c6-9c51-5b0cf86a23a4.m4a",
+          "duration": 182.08
+        },
+        {
+          "title": "Abbey Flames",
+          "sunoId": "cae393d8-9b2f-4e21-8bf4-51880f946d18",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/cae393d8-9b2f-4e21-8bf4-51880f946d18.m4a",
+          "duration": 270.96
+        },
+        {
+          "title": "Surprise Sandwich",
+          "sunoId": "fea37db2-f198-474e-95d7-4748f9fd51c9",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/fea37db2-f198-474e-95d7-4748f9fd51c9.m4a",
+          "duration": 114.92
+        },
+        {
+          "title": "Small Days Gold",
+          "sunoId": "8a72e9af-2ed0-4441-a13b-3e97dfdd0136",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/8a72e9af-2ed0-4441-a13b-3e97dfdd0136.m4a",
+          "duration": 164.0
+        },
+        {
+          "title": "Knowledge Flow",
+          "sunoId": "d08cb607-4c0a-4d1c-8463-da7bd8290b23",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/d08cb607-4c0a-4d1c-8463-da7bd8290b23.m4a",
+          "duration": 301.32
+        },
+        {
+          "title": "Beneath the Sun",
+          "sunoId": "dfc2d352-871d-43dc-861c-a8956fb57634",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/dfc2d352-871d-43dc-861c-a8956fb57634.m4a",
+          "duration": 189.2
+        },
+        {
+          "title": "Swift Moves",
+          "sunoId": "0901ed79-9445-417e-8119-dd4a9a6d38a2",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/0901ed79-9445-417e-8119-dd4a9a6d38a2.m4a",
+          "duration": 138.6
+        },
+        {
+          "title": "Corner Store",
+          "sunoId": "4b4d0948-e207-4303-9ae7-8a5c4cca2f05",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/4b4d0948-e207-4303-9ae7-8a5c4cca2f05.m4a",
+          "duration": 150.48
+        },
+        {
+          "title": "Closed Curtains",
+          "sunoId": "41585413-93b0-4349-9d6f-b3dee9af55e2",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/41585413-93b0-4349-9d6f-b3dee9af55e2.m4a",
+          "duration": 202.4
+        },
+        {
+          "title": "Breakfast in Bed",
+          "sunoId": "acab8fa9-d6ef-43e8-83b5-6aab3a62b3cd",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/acab8fa9-d6ef-43e8-83b5-6aab3a62b3cd.m4a",
+          "duration": 181.92
+        },
+        {
+          "title": "A Good Day's Ride",
+          "sunoId": "665618c1-dc4f-495c-b5d1-8a0cc93a769a",
+          "src": "https://d2lwuy8qc234o3.cloudfront.net/1/clip/665618c1-dc4f-495c-b5d1-8a0cc93a769a.m4a",
+          "duration": 161.6
+        }
+      ]
+    },
+    {
       "id": "west-coast",
       "title": "West Coast",
       "artist": "Mikey More Bounce",
