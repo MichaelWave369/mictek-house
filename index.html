@@ -12,8 +12,17 @@
   <div class="app">
     <header class="top">
       <div class="brand">
-        <div class="mark">MORE BOUNCE <span>LABS</span></div>
-        <div class="sub" id="tagline">MIKEY MORE BOUNCE</div>
+        <svg class="mbl-logo" viewBox="0 0 220 54" aria-label="MBL">
+          <defs>
+            <linearGradient id="mblg" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#7CFF4A"/>
+              <stop offset="0.45" stop-color="#1EE6FF"/>
+              <stop offset="1" stop-color="#2F6BFF"/>
+            </linearGradient>
+          </defs>
+          <text x="4" y="42" fill="url(#mblg)" stroke="#041018" stroke-width="2">MBL</text>
+        </svg>
+        <div class="sub" id="tagline">MORE BOUNCE LABS</div>
       </div>
       <div class="top-actions">
         <input id="search" class="search" type="search" placeholder="Search albums or tracks" />
@@ -25,6 +34,10 @@
       </div>
     </header>
     <main class="stage" id="stage"></main>
+    <section class="vis-window">
+      <div class="kicker"><h1>VISUALIZER</h1><p>MILKDROP MODE</p></div>
+      <canvas id="viz" width="1100" height="180"></canvas>
+    </section>
     <footer class="player" id="player"></footer>
   </div>
   <div id="modal" class="hidden"></div>

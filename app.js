@@ -199,22 +199,30 @@ async function renderLibrary() {
     const n = (a.tracks || []).filter((t) => t.src || t.blob).length;
     const total = (a.tracks || []).length;
     cards.push(`
-      <button class="card" data-open="${esc(a.id)}">
-        <div class="cover">
-          ${src ? `<img src="${esc(src)}" alt="" />` : `<div class="ph">${esc((a.title || "?").slice(0, 1))}</div>`}
-          <div class="badge">${esc(a.type || "LP")} · ${esc(a.year || "")}</div>
-        </div>
-        <h2>${esc(a.title)}</h2>
-        <div class="meta">${esc(a.artist || "Mikey More Bounce")} · ${n}/${total} playable</div>
+      <button class="ml-row" data-open="${esc(a.id)}">
+        ${src ? `<img src="${esc(src)}" alt="" />` : `<span class="ph">${esc((a.title || "?").slice(0, 1))}</span>`}
+        <span class="ml-title">${esc(a.title)}</span>
+        <span>${n}/${total}</span>
+        <span>${esc(a.type || "LP")}</span>
+        <span>${esc(a.year || "")}</span>
       </button>`);
   }
   stage.innerHTML = `
     <div class="kicker">
-      <h1>MORE BOUNCE LABS</h1>
-      <p>19 shelves. 344 tracks. click a cover.</p>
+      <h1>MEDIA LIBRARY</h1>
+      <p>${albums.length} albums</p>
     </div>
-    ${cards.length ? `<div class="grid">${cards.join("")}</div>` : `<div class="empty"><strong>No shelves yet.</strong>Hit New album, or drop a folder of MP3s onto a shelf.</div>`}
-  `;
+    <div class="ml">
+      <aside class="ml-tree">
+        <div>Audio</div>
+        <div class="on">Albums</div>
+        <div>Now playing</div>
+      </aside>
+      <div class="ml-main">
+        <div class="ml-head"><span></span><span>Album</span><span>Tracks</span><span>Type</span><span>Year</span></div>
+        ${cards.join("") || `<div class="empty"><strong>No shelves yet.</strong></div>`}
+      </div>
+    </div>`;
   stage.querySelectorAll("[data-open]").forEach((btn) => {
     btn.onclick = () => openAlbum(btn.dataset.open);
   });
@@ -452,6 +460,7 @@ async function startCurrent() {
   const cur = state.queue[state.index];
   if (!cur) return;
   state.useEmbed = false;
+  audio.crossOrigin = "anonymous";
   const src = cur.blob ? await blobUrl(cur.blob) : (cur.src || (cur.sunoId ? sunoAudio(cur.sunoId) : ""));
   if (!src) {
     if (cur.sunoId) { state.useEmbed = true; render(); }
@@ -713,3 +722,63 @@ document.addEventListener("keydown", (e) => {
 });
 
 load();
+
+const viz = document.getElementById("viz");
+const vctx = viz.getContext("2d");
+let actx, analyser, freq, wave;
+function armViz() {
+  if (actx) return;
+  const AC = window.AudioContext || window.webkitAudioContext;
+  if (!AC) return;
+  actx = new AC();
+  const node = actx.createMediaElementSource(audio);
+  analyser = actx.createAnalyser();
+  analyser.fftSize = 256;
+  node.connect(analyser);
+  analyser.connect(actx.destination);
+  freq = new Uint8Array(analyser.frequencyBinCount);
+  wave = new Uint8Array(analyser.fftSize);
+}
+audio.addEventListener("play", () => { armViz(); actx && actx.resume(); });
+
+function drawViz(t) {
+  const w = viz.width, h = viz.height;
+  const g = vctx;
+  g.fillStyle = "rgba(0,0,0,0.28)";
+  g.fillRect(0, 0, w, h);
+  let bass = 40;
+  if (analyser) {
+    analyser.getByteFrequencyData(freq);
+    analyser.getByteTimeDomainData(wave);
+    bass = freq.slice(0, 8).reduce((a, b) => a + b, 0) / 8;
+  }
+  const pulse = bass / 255;
+  for (let i = 0; i < 5; i++) {
+    g.beginPath();
+    const y = h * 0.5 + Math.sin(t / 700 + i) * (20 + pulse * 40);
+    g.strokeStyle = `hsla(${(t / 20 + i * 40) % 360}, 100%, ${50 + pulse * 20}%, 0.55)`;
+    g.lineWidth = 2 + pulse * 4;
+    for (let x = 0; x <= w; x += 8) {
+      const yy = y + Math.sin(x / 40 + t / 300 + i) * (12 + pulse * 36);
+      if (x === 0) g.moveTo(x, yy); else g.lineTo(x, yy);
+    }
+    g.stroke();
+  }
+  const bars = 48;
+  for (let i = 0; i < bars; i++) {
+    const v = analyser ? freq[i] / 255 : (0.25 + 0.2 * Math.sin(t / 200 + i));
+    g.fillStyle = `hsl(${120 + i * 3 + t / 30}, 100%, 55%)`;
+    g.fillRect(i * (w / bars), h - v * h * 0.8, (w / bars) - 2, v * h * 0.8);
+  }
+  g.beginPath();
+  g.strokeStyle = "#b6ff4a";
+  g.lineWidth = 1.5;
+  for (let i = 0; i < (wave ? wave.length : 64); i++) {
+    const x = (i / (wave ? wave.length : 64)) * w;
+    const y = wave ? (wave[i] / 255) * h : h / 2;
+    if (i === 0) g.moveTo(x, y); else g.lineTo(x, y);
+  }
+  g.stroke();
+  requestAnimationFrame(drawViz);
+}
+requestAnimationFrame(drawViz);
