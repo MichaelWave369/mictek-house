@@ -1,0 +1,53 @@
+{
+  "artist": "Mikey More Bounce",
+  "aka": "MicTek",
+  "tagline": "Making music to make you feel good, baby.",
+  "links": {
+    "suno": "https://suno.com/@michaelwave369",
+    "soundcloud": "",
+    "spotify": "",
+    "instagram": ""
+  },
+  "albums": [
+    {
+      "id": "west-coast",
+      "title": "West Coast",
+      "artist": "Mikey More Bounce",
+      "type": "LP",
+      "year": "2026",
+      "description": "Night drive. Sodium lights, open window, the long coast.",
+      "cover": "",
+      "tracks": []
+    },
+    {
+      "id": "neon-bae-groove",
+      "title": "Neon Bae Groove",
+      "artist": "Mikey More Bounce",
+      "type": "LP",
+      "year": "2026",
+      "description": "Booth light, chrome, and a groove that does not sit down.",
+      "cover": "",
+      "tracks": []
+    },
+    {
+      "id": "bounce",
+      "title": "Bounce",
+      "artist": "Mikey More Bounce",
+      "type": "LP",
+      "year": "2026",
+      "description": "Warehouse. One beam. Hands up. Peace, love, unity, respect.",
+      "cover": "",
+      "tracks": []
+    },
+    {
+      "id": "konkrete-jungle",
+      "title": "Konkrete Jungle",
+      "artist": "Mikey More Bounce",
+      "type": "EP",
+      "year": "2026",
+      "description": "Wet concrete, one green line, the city still awake.",
+      "cover": "",
+      "tracks": []
+    }
+  ]
+}
